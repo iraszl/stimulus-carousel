@@ -1,7 +1,7 @@
 import { Controller } from '@hotwired/stimulus'
 import { SwiperOptions } from 'swiper'
 // @ts-ignore
-import Swiper from 'swiper/bundle'
+import Swiper from 'swiper/swiper-bundle'
 
 export default class extends Controller {
   swiper: Swiper
