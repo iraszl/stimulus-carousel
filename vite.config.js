@@ -10,11 +10,11 @@ export default ({ mode }) => {
         name: 'stimulus-carousel'
       },
       rollupOptions: {
-        external: ['swiper/bundle', '@hotwired/stimulus'],
+        external: ['swiper/swiper-bundle', '@hotwired/stimulus'],
         output: {
           globals: {
             '@hotwired/stimulus': 'Stimulus',
-            'swiper/bundle': 'Swiper'
+            'swiper/swiper-bundle': 'Swiper'
           }
         }
       }
